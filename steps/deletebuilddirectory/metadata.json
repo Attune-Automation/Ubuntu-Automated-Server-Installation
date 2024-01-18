@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": null, 
+    "enabled": true, 
+    "externalUuid4": "20098f29-ec50-4bc2-9336-64f8256f2e9d", 
+    "interpreter": 1, 
+    "key": "deletebuilddirectory", 
+    "name": "Delete Build Directory", 
+    "osCredKey": "autoinstallerworkeruser", 
+    "serverKey": "autoinstallerworkernode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

@@ -1,0 +1,2 @@
+cd {autoInstallerBaseDir}/cidata
+truncate -s 10G image.img

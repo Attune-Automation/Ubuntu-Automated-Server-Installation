@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": null, 
+    "archiveKey": "ubuntuserver22043iso", 
+    "deployPath": "{autoInstallerBaseDir}/build-{autoInstallerNode.fqn}", 
+    "enabled": true, 
+    "externalUuid4": "9a1eb088-2928-4aa4-854f-5ae571fabb57", 
+    "key": "deployubuntuserver22042iso", 
+    "name": "Deploy Ubuntu Server 22.04.2 ISO", 
+    "osCredKey": "autoinstallerworkeruser", 
+    "serverKey": "autoinstallerworkernode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}

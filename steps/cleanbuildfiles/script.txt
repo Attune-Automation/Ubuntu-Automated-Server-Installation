@@ -1,0 +1,15 @@
+DIR="{autoInstallerBaseDir}/build-{autoInstallerNode.fqn}"
+if [ -d "${DIR}" ]
+then
+    rm -rf "${DIR}" && echo "Removed ${DIR}"
+else
+    echo "No directory to remove."
+fi
+
+ISO="{autoInstallerBaseDir}/autoinstaller_{autoInstallerNode.fqn}.iso"
+if [ -f "${ISO}" ]
+then
+    rm -fv "${ISO}"
+else
+    echo "No ISO to remove."
+fi
